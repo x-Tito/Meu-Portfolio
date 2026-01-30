@@ -6,15 +6,10 @@ import Clima from '../components/Imagens/Clima.png';
 import breakforlove from '../components/Imagens/breakforlove.png';
 import desafiodev from '../components/Imagens/desafiodev.png';
 
-// Importe suas imagens aqui (exemplo)
-// import FotoPerfil from '../components/Imagens/Minhaft.png';
-// import FotoProjeto1 from '../components/Imagens/Barbearia.jpg';
-
 const Portfolio = () => {
   const [filter, setFilter] = useState('front');
   const [modalData, setModalData] = useState(null);
 
-  // Lista de projetos baseada nas suas atividades
   const projects = [
     {
       id: 1,
@@ -60,11 +55,9 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-container">
-      {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
           <div className="photo-container">
-            {/* Use a foto profissional que geramos aqui */}
             <img src={Minhaft} alt="Jailson" className="profile-photo" /> 
           </div>
           <div className="intro-text">
@@ -81,7 +74,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Tecnologias */}
       <section className="tech-section">
         <h2 className="section-title">Tecnologias Estudadas</h2>
         <div className="tech-grid">
@@ -91,7 +83,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Projetos */}
       <section className="projects-section">
         <h2 className="section-title">Meus Projetos</h2>
         <div className="filter-buttons">
@@ -126,7 +117,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Contato */}
       <footer className="contact-footer">
         <h2 className="section-title">Contato</h2>
         <div className="social-links">
@@ -138,7 +128,6 @@ const Portfolio = () => {
         <p className="footer-credits">© 2026 • Desenvolvido por Jailson em Aracaju/SE.</p>
       </footer>
 
-      {/* Modal / Popup */}
       {modalData && (
         <div className="modal-overlay" onClick={() => setModalData(null)}>
           <div className="modal-content" onClick={e => e.stopPropagation()}>
