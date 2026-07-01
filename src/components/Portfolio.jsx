@@ -5,6 +5,7 @@ import Barb from '../components/Imagens/BarbStrike.png';
 import Clima from '../components/Imagens/Clima.png';
 import breakforlove from '../components/Imagens/breakforlove.png';
 import desafiodev from '../components/Imagens/desafiodev.png';
+import quiz from '../components/Imagens/quiz-sergipe.png';
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('front');
@@ -46,7 +47,17 @@ const Portfolio = () => {
       description: "Projeto acadêmico feito em equipe, com o intuito de fazer casais passarem mais tempo de qualidade juntos.",
       techs: ["Software Architecture", "Dart/Flutter", "Documentação"],
       link: "https://github.com/SamuelRamos338/breakforlove-conexao.git"
+    },
+    {
+      id: 5,
+      title: "Quiz Sergipe",
+      type: "front",
+      image: quiz,
+      description: "Projeto acadêmico desenvolvido em equipe com o objetivo de exaltar a cultura sergipana. A proposta consiste em um jogo de perguntas e respostas gamificado, projetado para testar e expandir o conhecimento do público sobre as tradições, a história e a identidade de Sergipe.",
+      techs: ["React", "CSS", "JavaScript"],
+      link: "https://quiz-sergipe.netlify.app/"
     }
+
   ];
 
   const techSkills = ["React", "JavaScript", "HTML5", "CSS3", "Node.js", "Git", "SQL", "UX/UI", "Figma", "Dart/Flutter","BootStrap","Git/Github","Python"];
