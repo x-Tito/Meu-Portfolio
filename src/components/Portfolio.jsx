@@ -74,12 +74,11 @@ const Portfolio = () => {
           <div className="intro-text">
             <h1>Olá, eu sou o <span className="highlight">Jailson</span></h1>
             <p>
-              Sou estudante do último período de Análise e Desenvolvimento de Sistemas, com foco em Front-end e atualmente em formação em React pelo IFS.
-              Desenvolvo interfaces modernas, responsivas e centradas na experiência do usuário, unindo desenvolvimento Front-end e
-              UI/UX Design.
-              Trabalho com HTML, CSS, JavaScript, React e Bootstrap, aplicando boas práticas, componentização e organização de código.
-              Tenho experiência com prototipagem no Figma, usabilidade e acessibilidade, além de desenvolver projetos pessoais para
-              consolidar meu aprendizado e manter meu GitHub e LinkedIn atualizados.
+              Graduado em Análise e Desenvolvimento de Sistemas com foco em Front-end, especializando-me em React. Desenvolvo interfaces modernas, 
+              responsivas e centradas na experiência do usuário, integrando princípios de UI/UX Design com alta capacidade técnica. Minha stack abrange 
+              HTML, CSS, JavaScript, React e Bootstrap, sempre aplicando boas práticas, componentização e organização de código. Com domínio em 
+              prototipagem no Figma e foco em usabilidade e acessibilidade, busco transformar desafios complexos em soluções digitais intuitivas,
+              mantendo um compromisso contínuo com o aprendizado prático e a evolução do meu portfólio.
             </p>
           </div>
         </div>
